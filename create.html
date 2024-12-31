@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="create.css">
+
+    <script src="create.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+        <a href="../mainpage.html">
+            <img src="../Metalink/assets/images/page-logo.png" alt="NFT Nexus" class="page-logo">
+        </a>
+    </header>
+    <div class="wrapper">
+        <h1>Create</h1>
+        <form id="cardform">
+            <div class="input-box">
+                <input type="text" id="authorName" name="authorName" class="input" placeholder="Author Name" required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="productName" name="productName" class="input" placeholder="Product Name"
+                    required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="productPrice" name="productPrice" class="input" placeholder="Product Price"
+                    required>
+            </div>
+            <div class="input-box input-file">
+                <label for="authorImageFile" class="input-label">Author Image:</label>
+                <input type="file" id="authorImageFile" name="authorImageFile" accept="image/*" required>
+            </div>
+            <div class="input-box input-file">
+                <label for="productImageFile" class="input-label">Product Image:</label>
+                <input type="file" id="productImageFile" name="productImageFile" accept="image/*" required>
+            </div>
+            <div class="input-box description">
+                <label for="productDescription">Product Description:</label>
+                <textarea id="productDescription" name="productDescription" rows="3" cols="50"
+                    placeholder="Enter product description..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn" id="submit">Create</button>
+
+        </form>
+    </div>
+</body>
+
+</html>

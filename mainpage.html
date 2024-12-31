@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Nexus</title>
+    <link rel="shortcut icon" href="Metalink/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Metalink/assets/css/style.css">
+
+    <script type="module" src="Metalink/assets/js/script.js"></script>
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <a href="#">
+                <img src="Metalink/assets/images/page-logo.png" alt="NFT Nexus" class="page-logo">
+            </a>
+
+            <nav class="navbar">
+                <ul class="navbar-list" id="nav-links">
+
+                    <li>
+                        <a href="./create.html" class="navbar-link label-lg link:hover">Create</a>
+                    </li>
+                    <li>
+                        <a href="#target" class="navbar-link label-lg link:hover">Explore</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link label-lg link:hover" id="walletLink">Wallet</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link label-lg link:hover">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link label-lg link:hover">Contact Us</a>
+                    </li>
+                    <li>
+                        <button class="sign-in" id="sign-in">Sign-In</button>
+                    </li>
+                    <li>
+                        <button class="sign-up" id="sign-up">Sign-Up</button>
+                    </li>
+                    <li class="user">
+                        <!-- <div class="user"> -->
+                            <i class='bx bx-user' id="user-icon"></i>
+                            <p id="user-email" class="user-email" style="display: none;"></p>
+                            <button class="sign-in" id="sign-out">SignOut</button>
+                        <!-- </div> -->
+                    </li>
+                </ul>
+                <!-- <div class="user">
+                    <i class='bx bx-user' id="user-icon"></i>
+                    <p id="user-email" class="user-email" style="display: none;"></p>
+                    <button class="sign-in" id="sign-out">SignOut</button>
+                </div> -->
+                <button class="menu-toggle" id="menu-toggle">
+                    <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+                    <ion-icon name="close-outline" class="close-icon"></ion-icon>
+                </button>
+
+            </nav>
+
+
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section hero">
+                <div class="container-1">
+                    <h1 class="headline-lg hero-title">
+                        Discover rate
+                        collection or <span class="span">Arts & NFTs</span>
+                    </h1>
+                    <p class="section-text body-lg">
+                        We are a huge marketplace dedicated to connecting great artists of all Metalink with their fans
+                        and unique token collectors!
+                    </p>
+
+                    <a href="#target" class="btn">Explore Now</a>
+
+            </section>
+
+            <section class="section top-collection" id="target">
+                <div class="container-1">
+                    <div class="title-wrapper">
+                        <h2 class="headline-md section-title">Top Collections</h2>
+
+                        <a href="#" class="btn-link link:hover">
+                            <span class="span">See More</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="card-div-1">
+                        <ul class="card-container">
+                            <li class="card-item">
+                                <div class="collection-card card">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-1.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="card-profile">
+                                            <img src="./Metalink/assets/images/avatar-1.jpg" alt="">
+                                            <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <h3 class="title-md card-title">
+                                            <a href="#">Digital Collection</a>
+                                        </h3>
+                                        <p class="label-md card-author">
+                                            by <a href="#" class="link">@CuiteGirl</a>
+                                        </p>
+                                        <p class="card-text">25 items</p>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-item">
+                                <div class="collection-card card">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-2.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="card-profile">
+                                            <img src="./Metalink/assets/images/avatar-2.jpg" alt="">
+                                            <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <h3 class="title-md card-title">
+                                            <a href="#">GIF Collection</a>
+                                        </h3>
+                                        <p class="label-md card-author">
+                                            by <a href="#" class="link">@NorseQueen</a>
+                                        </p>
+                                        <p class="card-text">25 items</p>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-item">
+                                <div class="collection-card card">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-3.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="card-profile">
+                                            <img src="./Metalink/assets/images/avatar-3.jpg" alt="">
+                                            <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <h3 class="title-md card-title">
+                                            <a href="#">Photography Collection</a>
+                                        </h3>
+                                        <p class="label-md card-author">
+                                            by <a href="#" class="link">@BigBull</a>
+                                        </p>
+                                        <p class="card-text">25 items</p>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="card-item">
+                                <div class="collection-card card">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-4.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="card-profile">
+                                            <img src="./Metalink/assets/images/avatar-4.jpg" alt="">
+                                            <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <h3 class="title-md card-title">
+                                            <a href="#">Sports Collection</a>
+                                        </h3>
+                                        <p class="label-md card-author">
+                                            by <a href="#" class="link">@Angel</a>
+                                        </p>
+                                        <p class="card-text">25 items</p>
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section discover-more">
+                <div class="container-2">
+                    <div class="title-holder">
+                        <h2 class="headline-md discover-title">Discover More</h2>
+                    </div>
+                    <div class="card-div-2">
+                        <ul class="card-container-2" id="cardContainer">
+                            <li class="card-item-1">
+                                <div class="discover-card card" data-price="0">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-8.gif" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="description">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas delectus ipsum alias optio vitae minus aboriosam explicabo.</p> <br>
+                                        <p>Owner: Crypto Guard</p>
+                                    </div>
+                                    <div class="card-content-1">
+                                        <div class="card-profile-1">
+                                            <img src="./Metalink/assets/images/avatar-8.jpg" alt="">
+                                            <p class="label-md card-author">
+                                                <a href="#" class="link">@StreetBoy</a>
+                                            </p>
+                                        </div>
+                                        <h3 class="title-md card-title card-title-1">
+                                            <a href="#">Genuine Undead #3902</a>
+                                        </h3>
+                                        <div class="price">
+                                            <p class="price-word">Price</p>
+                                            <div class="money">
+                                                <img src="./Metalink/assets/images/ethereum.svg" alt=""
+                                                    class="eth-logo">
+                                                <p>3.5 ETH</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button class="add-buy add">ADD</button>
+                                            <button class="add-buy buy">BUY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="card-item-1">
+                                <div class="discover-card card" data-price="3.5">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-3.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="description">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas delectus ipsum alias optio vitae minus aboriosam explicabo.</p> <br>
+                                        <p>Owner: Crypto Guard</p>
+                                    </div>
+                                    <div class="card-content-1">
+                                        <div class="card-profile-1">
+                                            <img src="./Metalink/assets/images/avatar-3.jpg" alt="">
+                                            <p class="label-md card-author">
+                                                <a href="#" class="link">@CuiteGirl</a>
+                                            </p>
+                                        </div>
+                                        <h3 class="title-md card-title card-title-1">
+                                            <a href="#">Windchime #768</a>
+                                        </h3>
+                                        <div class="price">
+                                            <p class="price-word">Price</p>
+                                            <div class="money">
+                                                <img src="./Metalink/assets/images/ethereum.svg" alt=""
+                                                    class="eth-logo">
+                                                <p>3.5 ETH</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button class="add-buy add">ADD</button>
+                                            <button class="add-buy buy">BUY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="card-item-1">
+                                <div class="discover-card card" data-price="4.9">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-6.gif" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="description">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas delectus ipsum alias optio vitae minus aboriosam explicabo.</p> <br>
+                                        <p>Owner: Crypto Guard</p>
+                                    </div>
+                                    <div class="card-content-1">
+                                        <div class="card-profile-1">
+                                            <img src="./Metalink/assets/images/avatar-6.gif" alt="">
+                                            <p class="label-md card-author">
+                                                <a href="#" class="link">@NorseQueen</a>
+                                            </p>
+                                        </div>
+                                        <h3 class="title-md card-title card-title-1">
+                                            <a href="#">Probably A Label #3277</a>
+                                        </h3>
+                                        <div class="price">
+                                            <p class="price-word">Price</p>
+                                            <div class="money">
+                                                <img src="./Metalink/assets/images/ethereum.svg" alt=""
+                                                    class="eth-logo">
+                                                <p>4.9 ETH</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button class="add-buy add">ADD</button>
+                                            <button class="add-buy buy">BUY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="card-item-1">
+                                <div class="discover-card card" data-price="4">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-4.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="description">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas delectus ipsum alias optio vitae minus aboriosam explicabo.</p> <br>
+                                        <p>Owner: Crypto Guard</p>
+                                    </div>
+                                    <div class="card-content-1">
+                                        <div class="card-profile-1">
+                                            <img src="./Metalink/assets/images/avatar-4.jpg" alt="">
+                                            <p class="label-md card-author">
+                                                <a href="#" class="link">@Butterfly</a>
+                                            </p>
+                                        </div>
+                                        <h3 class="title-md card-title card-title-1">
+                                            <a href="#">Probably A Label #1711</a>
+                                        </h3>
+                                        <div class="price">
+                                            <p class="price-word">Price</p>
+                                            <div class="money">
+                                                <img src="./Metalink/assets/images/ethereum.svg" alt=""
+                                                    class="eth-logo">
+                                                <p>4 ETH</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button class="add-buy add">ADD</button>
+                                            <button class="add-buy buy">BUY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="card-item-1">
+                                <div class="discover-card card" data-price="3.5">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-5.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="description">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas delectus ipsum alias optio vitae minus aboriosam explicabo.</p> <br>
+                                        <p>Owner: Crypto Guard</p>
+                                    </div>
+                                    <div class="card-content-1">
+                                        <div class="card-profile-1">
+                                            <img src="./Metalink/assets/images/avatar-5.jpg" alt="">
+                                            <p class="label-md card-author">
+                                                <a href="#" class="link">@BigBull</a>
+                                            </p>
+                                        </div>
+                                        <h3 class="title-md card-title card-title-1">
+                                            <a href="#">Shibuya Scramble Punks</a>
+                                        </h3>
+                                        <div class="price">
+                                            <div>
+                                                <p class="price-word bid-end">Starting Bid</p>
+
+                                            </div>
+                                            <div class="money">
+                                                <img src="./Metalink/assets/images/ethereum.svg" alt=""
+                                                    class="eth-logo">
+                                                <p>3.5 ETH</p>
+                                            </div>
+                                        </div>
+                                        <div class="ends-in">
+                                            <div>
+                                                <p class="end">Ends In</p>
+                                            </div>
+                                            <div class="time">
+
+                                                <p>30 minutes</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button class="add-buy add">BID</button>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="card-item-1">
+                                <div class="discover-card card" data-price="3.5">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-7.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="description">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas delectus ipsum alias optio vitae minus aboriosam explicabo.</p> <br>
+                                        <p>Owner: Crypto Guard</p>
+                                    </div>
+                                    <div class="card-content-1">
+                                        <div class="card-profile-1">
+                                            <img src="./Metalink/assets/images/avatar-7.jpg" alt="">
+                                            <p class="label-md card-author">
+                                                <a href="#" class="link">@Angel</a>
+                                            </p>
+                                        </div>
+                                        <h3 class="title-md card-title card-title-1">
+                                            <a href="#">Probably A Label #650</a>
+                                        </h3>
+                                        <div class="price">
+                                            <div>
+                                                <p class="price-word">Starting Bid</p>
+
+                                            </div>
+                                            <div class="money">
+                                                <img src="./Metalink/assets/images/ethereum.svg" alt=""
+                                                    class="eth-logo">
+                                                <p>3.5 ETH</p>
+                                            </div>
+                                        </div>
+                                        <div class="ends-in">
+                                            <div>
+                                                <p class="end">Ends In</p>
+                                            </div>
+                                            <div class="time">
+
+                                                <p>30 minutes</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button class="add-buy add">BID</button>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="card-item-1">
+                                <div class="discover-card card" data-price="4.9">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-2.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="description">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas delectus ipsum alias optio vitae minus aboriosam explicabo.</p> <br>
+                                        <p>Owner: Crypto Guard</p>
+                                    </div>
+                                    <div class="card-content-1">
+                                        <div class="card-profile-1">
+                                            <img src="./Metalink/assets/images/avatar-2.jpg" alt="">
+                                            <p class="label-md card-author">
+                                                <a href="#" class="link">@CrazyAnyone</a>
+                                            </p>
+                                        </div>
+                                        <h3 class="title-md card-title card-title-1">
+                                            <a href="#">Looki #0147</a>
+                                        </h3>
+                                        <div class="price">
+                                            <div>
+                                                <p class="price-word">Starting Bid</p>
+
+                                            </div>
+                                            <div class="money">
+                                                <img src="./Metalink/assets/images/ethereum.svg" alt=""
+                                                    class="eth-logo">
+                                                <p>4.9 ETH</p>
+                                            </div>
+                                        </div>
+                                        <div class="ends-in">
+                                            <div>
+                                                <p class="end">Ends In</p>
+                                            </div>
+                                            <div class="time">
+
+                                                <p>30 minutes</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button class="add-buy add">BID</button>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="card-item-1">
+                                <div class="discover-card card" data-price="4">
+                                    <figure class="card-banner img-holder">
+                                        <img src="./Metalink/assets/images/showcase-1.jpg" alt="" class="img-cover">
+                                    </figure>
+                                    <div class="description">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas delectus ipsum alias optio vitae minus aboriosam explicabo.</p> <br>
+                                        <p>Owner: Crypto Guard</p>
+                                    </div>
+                                    <div class="card-content-1">
+                                        <div class="card-profile-1">
+                                            <img src="./Metalink/assets/images/avatar-1.jpg" alt="">
+                                            <p class="label-md card-author">
+                                                <a href="#" class="link">@Princess</a>
+                                            </p>
+                                        </div>
+                                        <h3 class="title-md card-title card-title-1">
+                                            <a href="#">Poob #285</a>
+                                        </h3>
+                                        <div class="price">
+                                            <div>
+                                                <p class="price-word">Starting Bid</p>
+
+                                            </div>
+                                            <div class="money">
+                                                <img src="./Metalink/assets/images/ethereum.svg" alt=""
+                                                    class="eth-logo">
+                                                <p>4 ETH</p>
+                                            </div>
+                                        </div>
+                                        <div class="ends-in">
+                                            <div>
+                                                <p class="end">Ends In</p>
+                                            </div>
+                                            <div class="time">
+
+                                                <p>30 minutes</p>
+                                            </div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button class="add-buy add">BID</button>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+           
+               
+            <div class="wallet-modal" id="walletModal">
+                <div class="modal-content">
+                    <h2 id="walletStatus">No wallet connected</h2>
+                    <button id="walletActionButton">Connect Now</button>
+                </div>
+            </div>
+
+        </article>
+    </main>
+    <div class="body-bg-shape"></div>
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

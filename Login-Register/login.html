@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <script type="module" src="login.js"></script>
+</head>
+<body>
+    <header>
+
+        <a href="../mainpage.html">
+            <img src="../Metalink/assets/images/page-logo.png" alt="NFT Nexus" class="page-logo">
+        </a>
+    </header>
+    <div class="wrapper">
+        <form action="">
+            <h1>Sign-In</h1>
+            <div class="input-box">
+                <input type="email" placeholder="Email" id="email" required>
+                <i class='bx bx-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="password" required>
+                <img class='bx bx-lock' id="lock" src="IMGs/lock.png"></img>
+            </div>
+            <div class="remember-forgot">
+                <label for="remember">
+                    <input type="checkbox" id="remember"> Remember me
+                </label>
+                <a href="#" id="reset">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn" id="submit">Sign-In</button>
+            <div class="register-link">
+                <p>Don't have an account? <a href="register.html">Sign-Up Now</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
