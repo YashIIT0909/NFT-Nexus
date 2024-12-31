@@ -5,15 +5,9 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebas
 
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyBgoiYOPdOvfdd_8kRjWV4z9zPhIOc8IKU",
-    authDomain: "login-register-300e8.firebaseapp.com",
-    projectId: "login-register-300e8",
-    storageBucket: "login-register-300e8.firebasestorage.app",
-    messagingSenderId: "697162820584",
-    appId: "1:697162820584:web:5bc5409a9e651b3f3f125d"
-};
+import firebaseConfig from '../api.js';
+
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
