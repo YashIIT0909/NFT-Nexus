@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .then((userCredential) => {
                 
                 const user = userCredential.user;
-                window.location.href = '../mainpage.html';
+                window.location.href = '../index.html';
                
             })
             .catch((error) => {

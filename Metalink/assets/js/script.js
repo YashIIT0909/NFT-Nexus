@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     document.getElementById("sign-out").addEventListener("click", () => {
         auth.signOut();
         sessionStorage.removeItem("userEmail");
-        window.location.href = "mainpage.html";
+        window.location.href = "index.html";
     })
 
     const walletModal = document.getElementById("walletModal");
