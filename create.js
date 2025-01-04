@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('cards', JSON.stringify(cards));
 
         
-        window.location.href = 'mainpage.html';
+        window.location.href = 'index.html';
       };
 
       reader2.readAsDataURL(productImageFile);
