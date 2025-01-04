@@ -28,13 +28,13 @@ document.addEventListener('DOMContentLoaded', function () {
           productDescription,
         };
 
-        
+
         const cards = JSON.parse(localStorage.getItem('cards')) || [];
         cards.push(cardData);
         localStorage.setItem('cards', JSON.stringify(cards));
 
         
-        window.location.href = 'index.html';
+        window.location.href = '../index.html';
       };
 
       reader2.readAsDataURL(productImageFile);
