@@ -15,7 +15,7 @@ const auth = getAuth(app);
 
 
 
-const confirmPassword = document.getElementById('confirmpassword').value;
+// const confirmPassword = document.getElementById('confirmpassword').value;
 const errorMessage = document.getElementById('errorMessage');
 const submit = document.getElementById('submit');
 
@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('registerForm').addEventListener('submit', (event) => {
         event.preventDefault();
         const pass = document.getElementById('password').value;
-        if (pass !== confirmPassword) {
+        const confirmPassword = document.getElementById('confirmpassword').value;
+        if (pass != confirmPassword) {
             errorMessage.style.display = 'block';
             errorMessage.style.textAlign = 'center';
             errorMessage.innerHTML = 'Passwords do not match!';
