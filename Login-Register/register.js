@@ -21,6 +21,7 @@ const submit = document.getElementById('submit');
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('registerForm').addEventListener('submit', (event) => {
+        
         event.preventDefault();
         const pass = document.getElementById('password').value;
         const confirmPassword = document.getElementById('confirmpassword').value;

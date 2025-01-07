@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     auth.onAuthStateChanged((user) => {
         const userEmailElement = document.getElementById("user-email");
 
-        if (user) {
+        if (user) { 
             sessionStorage.setItem("userEmail", user.email);
             if (userEmailElement) {
                 userEmailElement.style.display = "block";
